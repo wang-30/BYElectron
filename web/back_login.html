@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台登录页面</title>
+    <link rel="stylesheet" href="../css/login_layout.css">
+
+</head>
+<body>
+<!--最顶端-->
+<div id="login_top">
+    <p style="color: #cccccc">Your are not given up ! You can also do what you wanna do !</p>
+</div>
+
+<div id="decorate_bg">
+    <!--实现图片轮播功能-->
+    <img src="../resource/horse1.jpg" height="100%" width="100%">
+    <script type="text/javascript"  src="../js/pictureChange.js"></script>
+</div>
+
+<!--登录窗口区在右边-->
+<div id="user_login">
+
+    <form style="text-align: center" action="back_end.html">
+        <div id="input_name" style="width: 100%">
+            <label>Username</label>
+            <input type="text" name="userName" placeholder="Your name...">
+        </div>
+
+        <div id="input_password" style="width: 100%" >
+            <label>Password</label>
+            <input type="password" name="userPassword" placeholder="Your password...">
+        </div>
+
+        <input id = "submit" type="submit" value="Submit">
+
+    </form>
+</div>
+
+<!--最低端 -->
+<div id="login_bottom">
+    <p style="color: black">网页版权@东莞理工学院--王振轩，侵权必究法律责任 ！</p>
+</div>
+</body>
+</html>
